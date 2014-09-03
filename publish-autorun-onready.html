@@ -1,0 +1,14 @@
+<head>
+  <title>publish-autorun-onready</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Re-subscribe</button>
+  <p>Subscription is {{#if ready}}ready{{else}}not ready{{/if}}.</p>
+</template>
